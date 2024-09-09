@@ -1,0 +1,40 @@
+package P1;
+
+import java.util.*;
+
+public class sumavg {
+	
+	double sum(double a, double b, double c, double d, double e) {
+		double s;
+		s = a + b + c + d + e;
+		return s;
+	}
+	
+	double avg(double s) {
+		double avg = s/5.0;
+		return avg;
+	}
+	
+	
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		
+		double a,b,c,d,e, s, avg;
+		
+		a = scn.nextInt();
+		b = scn.nextInt();
+		c = scn.nextInt();
+		d = scn.nextInt();
+		e = scn.nextInt();
+		
+		sumavg obj = new sumavg();
+		s = obj.sum(a, b, c, d, e);
+		
+		avg = obj.avg(s);
+		
+		System.out.println("Sum of Numbers: "+s);
+		System.out.println("Average of Numbers: "+avg);
+		
+		scn.close();
+	}
+}
