@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class matrixadd{
+public class Matrixadd{
     
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
