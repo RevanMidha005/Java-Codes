@@ -1,7 +1,7 @@
 package Practice3;
 
 public class FullName {
-    String Name(String fn, String ln) {
-        return "Mr. " + fn + " " + ln;
+    void Name(String fn, String ln) {
+        System.out.println("Mr. " + fn + " " + ln);
     }
 }
