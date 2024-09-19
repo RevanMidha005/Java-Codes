@@ -2,7 +2,7 @@ package Practice4;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class MainClass {
+public class MainClass4 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         /*
