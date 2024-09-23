@@ -1,7 +1,7 @@
 package Practice1;
 
 public class Prime {
-    void isPrime(int n) {
+    public void isPrime(int n) {
         if (n == 0 || n == 1){
             System.out.println(n + " Not Prime");
             return;

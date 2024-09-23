@@ -1,4 +1,5 @@
 package Practice2;
+import Practice1.Prime;
 
 public class mainPrime {
     public static void main(String[] args) {

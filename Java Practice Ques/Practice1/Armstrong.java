@@ -23,6 +23,5 @@ public class Armstrong {
         if (s == n) {
             System.out.print(s + " ");
         }
-
     }
 }

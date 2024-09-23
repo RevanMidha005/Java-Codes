@@ -15,7 +15,6 @@ public class mainRev {
         for (int i : arr) {
             System.out.print(i + " ");
         }
-        System.out.println();
 
         Reverse obj = new Reverse();
         arr = obj.RevArr(arr);

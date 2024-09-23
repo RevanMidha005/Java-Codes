@@ -14,7 +14,7 @@ public class mainLinearSearch {
         int idx = obj4.linearSearch(line, search);
 
         if (idx != -1){
-            System.out.println("Found at index: " + idx);
+            System.out.println("Word Position: " + (idx + 1));
         }
         else{
             System.out.println("Not found");
