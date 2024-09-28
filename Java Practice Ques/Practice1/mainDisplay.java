@@ -6,7 +6,7 @@ public class mainDisplay {
         Scanner scn =  new Scanner(System.in);
         int n = 10;
 
-        DisplayNatural obj1 = new DisplayNatural();
-        obj1.display(n);
+        DisplayNatural obj = new DisplayNatural();
+        obj.display(n);
     }
 }

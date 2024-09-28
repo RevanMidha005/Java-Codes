@@ -5,13 +5,13 @@ public class mainLinearSearch {
     public static void main(String[] args) {
         Scanner scn =  new Scanner(System.in);
 
-        System.out.println("Enter the string: ");
+        System.out.println("Enter string: ");
         String line = scn.nextLine();
-        System.out.println("Enter the string to be searched: ");
+        System.out.println("Enter string to be searched: ");
         String search = scn.nextLine();
 
-        LinearSearch obj4 = new LinearSearch();
-        int idx = obj4.linearSearch(line, search);
+        LinearSearch obj = new LinearSearch();
+        int idx = obj.linearSearch(line, search);
 
         if (idx != -1){
             System.out.println("Word Position: " + (idx + 1));

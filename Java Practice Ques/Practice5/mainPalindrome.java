@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class mainPalindrome {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        System.out.println("Enter a string: ");
+        System.out.println("Enter string: ");
         String str = scn.nextLine();
 
         Palindrome obj = new Palindrome();

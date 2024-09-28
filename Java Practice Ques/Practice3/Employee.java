@@ -1,10 +1,8 @@
 package Practice3;
 
 public class Employee {
-    String name;
-    int id;
-    int age;
-    String dept;
+    String name, dept;
+    int id, age;
 
     Employee(String name, int id, int age, String dept) {
         this.name = name;

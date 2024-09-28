@@ -6,9 +6,9 @@ public class mainCalc {
         Calculator obj = new Calculator();
         Scanner scn = new Scanner(System.in);
 
-        System.out.println("Enter the first number: ");
+        System.out.println("Enter first number: ");
         int a = scn.nextInt();
-        System.out.println("Enter the second number: ");
+        System.out.println("Enter second number: ");
         int b = scn.nextInt();
         System.out.println();
 
