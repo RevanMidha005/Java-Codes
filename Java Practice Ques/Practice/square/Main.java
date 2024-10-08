@@ -1,4 +1,4 @@
-package Practice6.square;
+package Practice.square;
 import java.util.Scanner;
 
 public class Main {

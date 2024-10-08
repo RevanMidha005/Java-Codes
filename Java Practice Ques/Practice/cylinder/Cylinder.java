@@ -1,4 +1,4 @@
-package Practice6.cylinder;
+package Practice.cylinder;
 
 public class Cylinder {
     double radius, height;

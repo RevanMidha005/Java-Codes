@@ -1,4 +1,4 @@
-package Practice6.cylinder;
+package Practice.cylinder;
 import java.util.Scanner;
 
 public class Main {

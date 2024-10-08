@@ -1,4 +1,4 @@
-package Practice6.square;
+package Practice.square;
 
 public class Cube {
     double side;
